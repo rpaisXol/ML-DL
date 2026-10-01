@@ -1,0 +1,28 @@
+@"
+# 가상환경 디렉터리
+venv/
+env/
+.venv/
+ENV/
+
+# 파이썬 컴파일 및 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 환경 변수 및 설정 파일 (민감정보 보호)
+.env
+
+# Windows 운영체제 생성 파일
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+"@ | Out-File -FilePath .gitignore -Encoding utf8
